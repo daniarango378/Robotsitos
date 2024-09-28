@@ -10,7 +10,7 @@ public class Proyecto2 {
     public static ConcurrentHashMap<String, Object> locksPosiciones = new ConcurrentHashMap<>();
     public static ConcurrentHashMap<String, String> reservasDePosiciones = new ConcurrentHashMap<>();
 
-    public static int totalBeepersToMove = 50;
+    public static int totalBeepersToMove = 1000;
 
     public static ConcurrentHashMap<String, SemaforoInteligente> semaforosPorUbicacion = new ConcurrentHashMap<>();
 
